@@ -1,0 +1,71 @@
+// HEADER
+
+.btn {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+}
+
+.btn-signin {
+  background: #094fa3;
+  color: #fff;
+  transition: all 0.5s;
+
+  &:hover {
+    background: #0c5ec2;
+  }
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: rgb(245, 245, 245);
+  color: rgb(63, 63, 63);
+  padding: 0.5rem;
+
+  .login {
+    display: flex;
+    margin: 0 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+    a {
+      margin: 0 1rem;
+      color: rgb(63, 63, 63);
+    }
+
+    i {
+      margin-right: 0.3rem;
+    }
+
+    .question-link {
+      text-decoration: underline;
+      color: rgb(63, 63, 63);
+    }
+  }
+
+  .logo-and-input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    input {
+      width: 300px;
+      height: 30px;
+    }
+
+    select {
+      height: 30px;
+    }
+
+    .logo,
+    .logo-div {
+      width: 200px;
+      margin: 0 1rem;
+    }
+  }
+}

@@ -1,0 +1,98 @@
+//media
+
+@media (max-width: 1600px) {
+  .card {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 1500px) {
+  .card-products-container {
+    justify-content: space-evenly !important;
+  }
+
+  .right-side-bar p {
+    top: 250px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .login {
+    padding: 1rem;
+  }
+  .main-nav {
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .logo-and-input {
+    justify-content: center;
+    input {
+      width: 200px !important;
+    }
+
+    .logo {
+      width: 150;
+    }
+  }
+
+  .right-side-bar p {
+    top: 250px !important;
+  }
+}
+
+@media (max-width: 800px) {
+  .logo {
+    width: 100px;
+    margin: 1rem auto !important;
+  }
+
+  .logo-and-input {
+    justify-content: center;
+    input {
+      width: 100px !important;
+    }
+  }
+
+  .login {
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .btn-login {
+    margin-bottom: 1rem;
+  }
+
+  .btn-signin {
+    margin-bottom: 1rem;
+  }
+
+  .secondary-header {
+    flex-wrap: wrap;
+    position: unset !important;
+  }
+
+  .right-side-bar {
+    display: none;
+  }
+
+  .main-side-bar {
+    display: none;
+  }
+
+  .products {
+    flex: 100% !important;
+    justify-content: center;
+  }
+
+  .card-products-container {
+    justify-content: center !important;
+  }
+  .card {
+    width: 150px !important;
+  }
+
+  .right-side-bar p {
+    top: 0 !important;
+  }
+}
